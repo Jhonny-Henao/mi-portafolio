@@ -22,7 +22,15 @@ export default function Projects() {
       link: 'https://movie-app-git-main-jhonny-henaos-projects.vercel.app/page?page=1',
       image: '/img/movie-app.png',
       color: 'from-red-500 to-pink-600'
-    }
+    },
+    {
+      title: 'Quiz Trivia - Juego de Preguntas',
+      description: 'Un juego de trivia interactivo desarrollado con Next.js que consume la API pública de Open Trivia DB. Permite a los usuarios responder preguntas aleatorias de cultura general, ver su puntuación y volver a jugar. Diseño moderno, rápido y desplegado en Vercel.',
+      tags: ['Next.js', 'React', 'TailwindCSS', 'Open Trivia DB', 'Vercel'],
+      link: 'https://quiz-trivia-rust.vercel.app/',
+      image: '/img/quiz-trivia.png',
+      color: 'from-purple-500 to-indigo-600'
+    },
   ];
 
   const handleProjectClick = (link) => {

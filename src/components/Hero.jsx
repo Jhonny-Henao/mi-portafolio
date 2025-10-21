@@ -23,10 +23,10 @@ export default function Hero() {
         <div className="relative w-80 h-80">
           <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-cyan-500 rounded-3xl blur-2xl opacity-50"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-cyan-500 rounded-3xl p-1">
-            <div className="w-full h-full bg-slate-900 rounded-3xl flex items-center justify-center overflow-hidden">
+            <div className="w-full h-full bg-szlate-900 rounded-3xl flex items-center justify-center overflow-hidden">
               <img 
-                src="/img/profile.jpg" 
-                alt="Profile" 
+                src="/img/profile.png" 
+                alt="profile" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -89,7 +89,7 @@ export default function Hero() {
           <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-cyan-500 rounded-3xl p-1">
             <div className="w-full h-full bg-slate-900 rounded-3xl flex items-center justify-center overflow-hidden">
               <img 
-                src="/img/profile.jpg" 
+                src="/img/profile.png" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
